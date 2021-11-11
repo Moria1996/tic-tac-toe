@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="box.js"></script>
+    <link rel="stylesheet" href="box.css"/>
+</head>
+<body>
+    <div>
+        <h1>Tic Tac Toe</h1>
+        <h2 id="result"> Enjoy the game!</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button id="b1" onclick="pressBox(1)"></button></td>
+                    <td><button id="b2" onclick="pressBox(2)"></button></td>
+                    <td><button id="b3" onclick="pressBox(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="b4" onclick="pressBox(4)"></button></td>
+                    <td><button id="b5" onclick="pressBox(5)"></button></td>
+                    <td><button id="b6" onclick="pressBox(6)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="b7" onclick="pressBox(7)"></button></td>
+                    <td><button id="b8" onclick="pressBox(8)"></button></td>
+                    <td><button id="b9" onclick="pressBox(9)"></button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="reset" onclick="resetGame()">Reset</button>
+    </div>
+</body>
+</html>
